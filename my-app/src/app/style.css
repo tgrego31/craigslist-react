@@ -1,0 +1,409 @@
+html, body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+a {
+  color: #0000ee;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #551a8b;
+  text-decoration: underline;
+}
+
+.page-shell {
+  width: 962px;
+  margin: 3px 0 14px 22px;
+}
+
+.site-grid {
+  align-items: stretch;
+}
+
+.left-rail {
+  width: 214px;
+  min-height: 1082px;
+  background: #eee;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.main-area {
+  width: 602px;
+  max-width: 602px;
+  padding: 0 16px;
+  background: #fff;
+}
+
+.right-rail {
+  width: 127px;
+  min-height: 1082px;
+  background: #eee;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.brand-box {
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-link {
+  color: #551a8b;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 29px;
+  white-space: nowrap;
+}
+
+.brand-link:hover {
+  color: #551a8b;
+  text-decoration: none;
+}
+
+.peace {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 37px;
+  vertical-align: -4px;
+  margin-right: 3px;
+}
+
+.post-box {
+  height: 42px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-link {
+  color: #008000;
+  font-size: 20px;
+}
+
+.post-icon {
+  margin-right: 4px;
+}
+
+.search-box .input-group-text,
+.search-box .form-control {
+  height: 31px;
+  border-color: #cfcfcf;
+  background: #fff;
+  font-size: 16px;
+}
+
+.search-box .input-group-text {
+  border-right: 0;
+  color: #aaa;
+  padding-right: 3px;
+}
+
+.search-box .form-control {
+  border-left: 0;
+  padding-left: 3px;
+  box-shadow: none;
+}
+
+.calendar-wrap {
+  margin-top: 68px;
+}
+
+.calendar-table {
+  width: 187px;
+  border-color: #c7c7c7;
+  background: #fff;
+}
+
+.calendar-table th,
+.calendar-table td {
+  width: 26px;
+  height: 27px;
+  padding: 2px 3px;
+  vertical-align: middle;
+  font-weight: normal;
+  border-color: #c7c7c7;
+}
+
+.calendar-table thead th {
+  background: #e8e8e8;
+}
+
+.calendar-table td:first-child,
+.calendar-table tr:first-child td:nth-child(-n+2) {
+  color: #555;
+}
+
+.calendar-table .today {
+  background: #fff;
+  color: #0000ee;
+}
+
+.rail-links a,
+.right-links a {
+  display: block;
+}
+
+.top-links {
+  margin-top: 77px;
+  line-height: 34px;
+}
+
+.middle-links {
+  margin-top: 62px;
+  line-height: 34px;
+}
+
+.charity {
+  margin-top: 60px;
+  line-height: 24px;
+}
+
+.charity-icons {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.bottom-links {
+  margin-top: 67px;
+  line-height: 22px;
+}
+
+.location-bar {
+  height: 46px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  padding: 0 11px;
+}
+
+.location-title {
+  color: #0000ee;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.location-title::after {
+  display: none;
+}
+
+.location-title:hover {
+  color: #0000ee;
+  text-decoration: none;
+}
+
+.island-tabs {
+  display: flex;
+  gap: 8px;
+}
+
+.island-tabs a {
+  background: #fff;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+.quick-actions {
+  height: 100%;
+  gap: 17px;
+}
+
+.quick-actions a {
+  color: #000;
+  text-align: center;
+  line-height: 12px;
+  text-decoration: none;
+}
+
+.quick-actions a span {
+  display: block;
+  font-size: 23px;
+  line-height: 20px;
+}
+
+.quick-actions a small {
+  display: block;
+  font-size: 9px;
+}
+
+.categories-row {
+  padding-top: 10px;
+}
+
+.category-section h2 {
+  height: 35px;
+  margin: 0 0 1px 0;
+  padding: 7px 5px 5px;
+  background: #eee;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #111;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.category-section h2 a {
+  color: #0000ee;
+}
+
+.one-col-links a,
+.two-col-links a,
+.three-col-links a {
+  display: block;
+  min-height: 23px;
+  padding: 3px 3px 2px;
+  border-bottom: 1px solid #ccc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.two-col-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 8px;
+}
+
+.three-col-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 8px;
+}
+
+.selected-link {
+  background: #ddd;
+  outline: 1px solid #ccc;
+}
+
+.language-select {
+  height: 27px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-size: 16px;
+  border-color: #bbb;
+}
+
+.right-links {
+  margin: 25px 9px 0;
+}
+
+.right-links a {
+  padding: 4px 0;
+  border-top: 1px solid #ccc;
+  font-weight: 700;
+}
+
+.right-links a:last-child {
+  border-bottom: 1px solid #ccc;
+}
+
+.dropdown-menu {
+  font-size: 14px;
+}
+
+@media (max-width: 991.98px) {
+  .page-shell {
+    width: 100%;
+    margin: 0;
+  }
+
+  .site-grid {
+    display: block;
+  }
+
+  .left-rail,
+  .main-area,
+  .right-rail {
+    width: 100%;
+    max-width: none;
+    min-height: auto;
+  }
+
+  .left-rail,
+  .right-rail {
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .main-area {
+    padding: 0 12px 20px;
+  }
+
+  .calendar-wrap,
+  .top-links,
+  .middle-links,
+  .charity,
+  .bottom-links {
+    margin-top: 20px;
+  }
+
+  .left-rail {
+    padding-bottom: 20px;
+  }
+
+  .right-rail {
+    padding-bottom: 20px;
+  }
+}
+.craigslist-logo {
+  width: 160px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.post-ad-icon {
+  width: 26px;
+  height: 24px;
+  object-fit: contain;
+  margin-right: 2px;
+  vertical-align: -5px;
+}
+
+.search-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.location-icon {
+  width: 20px;
+  height: 25px;
+  object-fit: contain;
+  vertical-align: -5px;
+}
+
+.quick-actions a img {
+  display: block;
+  height: 27px;
+  width: auto;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.category-section h2 img {
+  max-width: 26px;
+  height: 22px;
+  object-fit: contain;
+  vertical-align: -5px;
+}
+
+.charity-icons img {
+  width: 118px;
+  height: 25px;
+  object-fit: contain;
+}
